@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1024" height="1024" viewBox="0 0 1024 1024">
+  <defs>
+    <radialGradient id="haze" cx="0.28" cy="0.22" r="0.9">
+      <stop offset="0" stop-color="#262624"/>
+      <stop offset="1" stop-color="#121212"/>
+    </radialGradient>
+  </defs>
+  <!-- macOS icon grid: 824px body centred in 1024 -->
+  <rect x="100" y="100" width="824" height="824" rx="186" fill="url(#haze)"/>
+  <rect x="100.5" y="100.5" width="823" height="823" rx="185.5" fill="none" stroke="#ffffff" stroke-opacity="0.08"/>
+  <!-- three streams, one list -->
+  <g transform="translate(40 0)">
+    <path d="M262 330 h330 a50 50 0 0 1 0 100 h-330 a50 50 0 0 1 0 -100z" fill="#ff6a3d"/>
+    <path d="M262 462 h420 a50 50 0 0 1 0 100 h-420 a50 50 0 0 1 0 -100z" fill="#f1f0ec"/>
+    <path d="M262 594 h250 a50 50 0 0 1 0 100 h-250 a50 50 0 0 1 0 -100z" fill="#8a8883"/>
+  </g>
+</svg>

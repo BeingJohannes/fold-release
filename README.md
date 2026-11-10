@@ -1,76 +1,48 @@
-# Fold
+<p align="center">
+  <img src="assets/icon.svg" width="104" alt="Fold">
+</p>
 
-All your tasks, one calm list. Fold brings together what's assigned to you in
-Notion, Jira, GitLab and Microsoft To Do, your calendars, and its own tasks,
-and sorts it all into **streams**: the big areas of your work and life. Free,
-and everything stays on your computer.
+<h1 align="center">Fold</h1>
 
-## Download
+<p align="center">
+  All your tasks, one calm list.<br>
+  Notion, Jira, GitLab, To Do and your calendars, sorted into streams.<br>
+  Free, and it stays on your computer.
+</p>
 
-| | |
-| --- | --- |
-| **Mac** (Apple Silicon: M1 or later) | [Download Fold for Mac](https://github.com/BeingJohannes/fold-release/releases/latest/download/Fold-mac-arm64.dmg) |
-| **Windows 10/11** (most PCs: x64) | [Download Fold for Windows](https://github.com/BeingJohannes/fold-release/releases/latest/download/Fold-win-x64.exe) |
-| **Windows on ARM** (e.g. Surface Pro X, Snapdragon laptops) | [Download Fold for Windows ARM](https://github.com/BeingJohannes/fold-release/releases/latest/download/Fold-win-arm64.exe) |
+<p align="center">
+  <a href="https://github.com/BeingJohannes/fold-release/releases/latest/download/Fold-mac-arm64.dmg"><b>Download for Mac</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/BeingJohannes/fold-release/releases/latest/download/Fold-win-x64.exe"><b>Windows</b></a>
+  &nbsp;·&nbsp;
+  <a href="https://github.com/BeingJohannes/fold-release/releases/latest/download/Fold-win-arm64.exe">Windows on ARM</a>
+</p>
 
-These links always give the newest version. Every version and what changed:
-[Releases](https://github.com/BeingJohannes/fold-release/releases).
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="assets/today-dark.png">
+    <img src="assets/today.png" alt="Fold's Today view: streams in the sidebar, the day's meetings on a timeline, and tasks in a column per stream" width="900">
+  </picture>
+</p>
 
-Not sure which Windows one you need? Open **Settings → System → About** and
-look at **System type**: it says "x64" or "ARM".
+## Why Fold
 
-## What it does
+- **One view of your day.** Today, the week, the month or everything, in a column per stream.
+- **Brings your tools together.** And with two-way on, ticking a task off in Fold ticks it off in Notion, Jira or GitLab.
+- **Your meetings on a timeline**, right above your tasks.
+- **Quick to change.** Tick, reschedule, reprioritise or move a task straight from its card.
 
-- **One view of your day.** Today, this week, this month or everything, as
-  columns (one per stream) or a list. Overdue, today and soon stand out.
-- **Brings in your tools.** Notion databases, Jira and GitLab issues,
-  Microsoft To Do lists, and Google, Outlook or iCloud calendars. Switch a
-  Notion database or a Jira/GitLab project to **two-way** and you can tick
-  things off, change dates and priorities in Fold, and it saves back.
-- **Your day's meetings** on a timeline across the top of Today.
-- **Quick changes on a card.** Click the circle to tick it off (right-click
-  for In progress, Blocked…), click the date or priority to change it, drag a
-  task to another stream.
-- **Search everything** with ⌘F, and add a task from anywhere with ⌥⇧Space.
-- **Works with Claude.** One click in Settings lets Claude see your streams
-  and plan with you.
-- Light and dark, a slim sidebar mode, and keyboard shortcuts for most things.
+## First time you open it
 
-## Installing
+Fold isn't signed by Apple or Microsoft yet, so you'll see a warning once.
 
-Fold isn't signed with a paid Apple or Microsoft certificate yet, so you'll see
-a warning the first time you open it. You only do this once.
+- **Mac:** drag Fold to Applications and open it. If macOS can't check it, go to **System Settings → Privacy & Security → Open Anyway**. When asked about the Keychain, choose **Always Allow**.
+- **Windows:** run the installer. If you see "Windows protected your PC", choose **More info → Run anyway**.
 
-**Mac**
-
-1. Open the downloaded `.dmg` and drag **Fold** to **Applications**.
-2. Open Fold from Applications.
-3. If macOS says it can't check Fold: open **System Settings → Privacy &
-   Security**, scroll down and click **Open Anyway**.
-4. When you connect a tool, macOS asks to let Fold use its Keychain item.
-   Enter your Mac password and choose **Always Allow**.
-
-**Windows**
-
-1. Run the downloaded installer. Fold opens and adds itself to the Start menu.
-2. If Windows says "Windows protected your PC": click **More info → Run anyway**.
-3. If Windows Security removed Fold (a "Missing Shortcut" message): open
-   **Windows Security → Virus & threat protection → Protection history**,
-   choose Fold and click **Restore**.
-
-## Updating
-
-Fold tells you when a new version is out (a card in the sidebar, and
-**Settings → General → App → Updates**). Download it from the same link and
-install it over the top: your tasks and settings are kept.
-
-On a Mac, the first update from version 0.5.1 onwards may ask for your password
-once more; choose **Always Allow** and later updates won't ask again.
+Fold lets you know when there's an update; install it over the top and everything is kept.
 
 ## Your data
 
-Tasks, plans and settings are stored on your computer, not on a server.
-Tokens and calendar links are kept in your Mac's Keychain or Windows
-Credential Manager. Fold only changes things in your tools where you've
-switched a database or project to two-way, never touches calendars or
-Microsoft To Do, and never deletes or archives anything there.
+Your tasks stay on your computer, and passwords and tokens stay in your Mac's Keychain or Windows Credential Manager. Fold never deletes anything in your tools.
+
+<sub>[All versions](https://github.com/BeingJohannes/fold-release/releases)</sub>
